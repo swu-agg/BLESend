@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/et_info"
+        android:layout_width="match_parent"
+        android:layout_height="29dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/et_round_bg_search"
+        android:ems="10"
+        android:gravity="center_vertical"
+        android:hint="@string/et_info"
+        android:inputType="text"
+        android:paddingEnd="10dp"
+        android:paddingStart="12dp"
+        android:textColor="@color/colorPrimary"
+        android:textColorHint="#999999"
+        android:textSize="12sp" />
+
+    <Button
+        android:id="@+id/bt_open_broadcast"
+        android:layout_width="100dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/et_round_bg_search"
+        android:contentDescription="@null"
+        android:text="@string/open_broadcast"
+        android:textColor="@color/colorPrimary"
+        android:textSize="20sp" />
+
+</merge>

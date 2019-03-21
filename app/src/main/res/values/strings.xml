@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">BLESend</string>
+    <string name="open_broadcast">打开广播</string>
+    <string name="et_info">打开广播连接中央设备后，才可以输入数据发送哦~</string>
+</resources>
